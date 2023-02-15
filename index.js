@@ -103,11 +103,11 @@ console.log('8 -',sum2);
 
 
 //9 
-let sum3 = 0;
+let sum3 = 1;
 
-for(let i = 0; i < arr.length; i++) {
+for(let i = 1; i <= arr.length; i++) {
     if(arr[i] > 0) {
-        sum3 += arr[i];
+        sum3 = sum3 * arr[i];
     }
 }
 console.log('9 -',sum3);
